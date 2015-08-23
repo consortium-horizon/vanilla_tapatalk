@@ -1,0 +1,35 @@
+= Tapatalk Vanilla Plugin Installation Guide =
+  
+  
+-- Installation:
+    At First,please disable and uninstall(delete the Tapatalk folder in plugins folder) the old tapatalk plugin version for vanilla in vanilla addons plugins admin panel,and delete the mobiquo folder,and continue the following steps!
+    1. Upload mobiquo folder to your site root folder.You should make the files under the mobiquo folder can be accessed directly through browser,otherwise the plugin may would not work;
+    2. Upload the plugin folder named 'Tapatalk' to your site plugins folder,this is a standard plugin folder for Vanilla;
+    3. In your Vanilla admin panel, go to Addons > Plugins;
+    4. Select Tapatalk and click Enable button to enable it;
+    5. If it is the first time you install our plugin for your site,please register your site in tapatalk forum owner area:http://tapatalk.com/forum_owner.php.
+
+-- Change Log:
+  Vanilla 2.0 Series Tapatalk Plugin Version 1.5.0 released
+	- Added compatibility with vanilla 2.1.5
+	- Fixed incorrect reply count in topics.
+	- Fixed image upload in conversations.
+	- Fixed reply post when spam check active
+	- Fixed user display name in topics and post
+    
+-- Other note:
+    1.For support the get online users feature,you need install WhosOnline plugin version1.3.
+    2.For support attachments feature,you need install FileUpload plugin version1.5.2.Now the FileUpload plugin looks has some compatibility issues,so we only support load attachments list.
+    3.If you installed AllViewed plugin on your site,it has conflict with our plugin and our plugin will return nothing on unread tab area.After you disable the AllViewed plugin,the unread tab will working ok.
+
+-- Special Instruction for Branded Customer
+    By default the Plugin will notify mobile users to download Tapatalk app. If you have purchased the branded license from us and wish to send mobile user to your mobile app, please config in plugin backend setting page.
+
+-- Github Url
+    https://github.com/tapatalk/tapatalk-vanilla2
+
+-- Support forum:
+    https://support.tapatalk.com/forums/vanilla-discussion.75/
+
+
+20140302
